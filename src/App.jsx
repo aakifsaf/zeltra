@@ -48,7 +48,7 @@ export default function App() {
       />
       
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-[600px] md:min-h-screen overflow-hidden">
+      <section id="hero" className="relative min-h-[600px] overflow-hidden">
         <BackgroundAnimation />
         <div className="container mx-auto px-4 pt-24 md:pt-32 relative z-10">
           <motion.div 
