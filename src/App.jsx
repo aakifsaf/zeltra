@@ -1,4 +1,4 @@
-8import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { MeshWobbleMaterial, OrbitControls, Float } from '@react-three/drei';
