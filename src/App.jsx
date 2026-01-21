@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+8import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { MeshWobbleMaterial, OrbitControls, Float } from '@react-three/drei';
@@ -48,7 +48,7 @@ export default function App() {
       />
       
       {/* Hero Section */}
-      <section id="hero" className="relative min-h-[70vh] md:min-h-screen overflow-hidden">
+      <section id="hero" className="relative min-h-[600px] md:min-h-screen overflow-hidden">
         <BackgroundAnimation />
         <div className="container mx-auto px-4 pt-24 md:pt-32 relative z-10">
           <motion.div 
